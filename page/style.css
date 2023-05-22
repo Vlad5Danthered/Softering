@@ -1,1 +1,95 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color:var(--DarkBlue);
+}
 
+.ExtraBold1{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+}
+.ExtraBold2{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+}
+.ExtraBold3{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+}
+.Semiboldle{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+}
+.bold1{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.bold2{
+    font-family: 'Graphik LCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+:root{
+    /* Color Themes */
+
+    /*Primary Colors*/
+    --SkyBlue: #00A8E9;
+    --DarkBlue: #112246;
+
+    /*Grayscale*/
+    --Grey: #C9D0DA;
+    --LigthGrey: #F7F7FC;
+    --DarkGrey: #737F8B;
+
+    /*Colors & Gradients*/
+    --Yellow: #FFC115;
+    --Green: #00AB4E;
+    --Blue: #053CC8;
+    --Red: #FF4B56;
+    --Mint: #00D9C5;
+    --Purple: #8C59E8;
+    --Pink: #F97696;
+
+    /*System color*/
+    --Black:#000;
+    --White:#fff;
+}
+
+button{
+    background: var(--DarkBlue);
+    color: var(--White);
+    border-radius: 12px;
+}
+button:hover{
+    background: var(--SkyBlue);
+}
+button:focus{
+    border: 8px solid rgba(0, 168, 233, 0.35);
+}
+button:disabled{
+    background: var(--DarkGrey);
+    color: var(--DarkGrey);
+}
